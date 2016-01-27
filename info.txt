@@ -1,0 +1,18 @@
+rails generate model post title:string body:text published:boolean
+
+# Creates a Post model with a string title, text body, and published flag.
+
+
+  `rails generate scaffold post title body:text published:boolean`
+
+
+rails generate scaffold product name 'price:decimal{7,2}' 
+
+rake db:migrate
+
+rake db:seed
+
+
+ rails generate scaffold Post subject content published_at:date
+ rake routes
+
